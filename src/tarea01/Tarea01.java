@@ -24,7 +24,8 @@ public class Tarea01 {
         Scanner entrada= new Scanner(System.in);
         System.out.println("ingresar cantidad en soles: ");
         soles=entrada.nextDouble();
-        
+        dolares=soles*cambio;
+        System.out.println("la cantidad de soles "+soles+"en dolares es: "+dolares);
     }
     
 }
