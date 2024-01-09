@@ -23,6 +23,7 @@ public class Tarea01 {
         
         Scanner entrada= new Scanner(System.in);
         System.out.println("ingresar cantidad en soles: ");
+        soles=entrada.nextDouble();
         
     }
     
