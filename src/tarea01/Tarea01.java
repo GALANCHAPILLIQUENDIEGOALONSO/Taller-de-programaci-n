@@ -12,20 +12,21 @@ import java.util.Scanner;
  */
 public class Tarea01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        double soles;
-        double dolares;
-        final double cambio=3.89;
+        double area;
+        double base;
+        double altura;
         
-        Scanner entrada= new Scanner(System.in);
-        System.out.println("ingresar cantidad en soles: ");
-        soles=entrada.nextDouble();
-        dolares=soles*cambio;
-        System.out.println("la cantidad de soles "+soles+"en dolares es: "+dolares);
+        System.out.println("Ingresar datos del triangulo... ");
+        Scanner entrada=new Scanner(System.in);
+        System.out.println("Ingresar distancia de la base: ");
+        base=entrada.nextDouble();
+        System.out.println("Ingresar distancia de la altura: ");
+        altura=entrada.nextDouble();
+        
+        area=base*altura/2;
+        
+        System.out.println("El area del triangulo es: "+area);
     }
     
 }
