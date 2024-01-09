@@ -8,8 +8,12 @@ package tarea01;
  *
  * @author Diego
  */
-public class tarea02 {
+public class codigo3 {
     public static void main(String[] args) {
-        
+        final int numero=100;
+        double x;
+        x=Math.sqrt(numero);
+        System.out.println("la raiz es: "+x);
+                
     }
 }

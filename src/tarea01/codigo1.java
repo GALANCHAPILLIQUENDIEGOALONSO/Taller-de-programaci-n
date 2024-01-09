@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Diego
  */
-public class Tarea01 {
+public class codigo1 {
 
     public static void main(String[] args) {
         double area;
