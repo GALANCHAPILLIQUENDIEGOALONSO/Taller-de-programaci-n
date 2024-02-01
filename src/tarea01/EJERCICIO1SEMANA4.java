@@ -4,6 +4,8 @@
  */
 package tarea01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author LAB-USR-LN6377-A0607
